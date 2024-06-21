@@ -13,7 +13,7 @@ $$ \hat{f}(x) = \frac{1}{n h} \sum_{i=1}^n K\left(\frac{x - x_i}{h}\right) $$
 其中：
 - $\hat{f}(x)$ 是在點 $x$ 處的密度估計值。
 - $K$ 是核函數，常見的核函數有高斯核（Gaussian Kernel）：
-  $$ K(u) = \frac{1}{\sqrt{2\pi}} e^{-0.5 u^2} $$
+  $$K(u) = \frac{1}{\sqrt{2\pi}} e^{-0.5 u^2}$$
 - $h$ 是帶寬參數。
 
 #### 2. 拒絕采樣的步驟
