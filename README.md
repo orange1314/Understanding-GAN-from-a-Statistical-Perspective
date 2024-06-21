@@ -257,7 +257,7 @@ $$ \min_ G \max_ D V(D, G) = \mathbb{E}_ {x \sim p_{\text{data}}(x)}[\log D(x)] 
      1. 從真實數據分布中采樣一批真實樣本 $x^{(i)} \sim p_ {\text{data}}(x)$。
      2. 從噪聲分布中采樣一批噪聲向量 $z^{(i)} \sim p_z(z)$。
      3. 計算判別器的損失並更新參數 $\theta_D$：
-        $$ L_ D = -\left( \mathbb{E}_ {x \sim p_ {\text{data}}(x)}[\log D(x)] + \mathbb{E}_ {z \sim p_ z(z)}[\log (1 - D(G(z)))] \right) $$
+        $$L_ D = -\left( \mathbb{E}_ {x \sim p_ {\text{data}}(x)}[\log D(x)] + \mathbb{E}_ {z \sim p_ z(z)}[\log (1 - D(G(z)))] \right)$$
    - **生成器訓練**：
      1. 從噪聲分布中采樣一批噪聲向量 $z^{(i)} \sim p_ z(z)$。
      2. 計算生成器的損失並更新參數 $\theta_G$：
