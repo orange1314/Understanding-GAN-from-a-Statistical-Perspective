@@ -207,7 +207,7 @@ sns.histplot(samples[:, 0], bins=50, kde=True, label='Generated Data', color='bl
 plt.legend()
 plt.xlabel('Value')
 plt.ylabel('Density')
-plt.title('GAN Generated Data vs Original Data')
+plt.title('Data histplot')
 plt.show()
 ```
 
