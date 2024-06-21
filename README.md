@@ -263,7 +263,7 @@ $$ \min_ G \max_ D V(D, G) = \mathbb{E}_ {x \sim p_{\text{data}}(x)}[\log D(x)] 
      2. 計算生成器的損失並更新參數 $\theta_G$：
         $$L_G = -\mathbb{E}_ {z \sim p_ z(z)}[\log D(G(z))]$$
 
-
+![](GAN.png)
 
 ```python
 import torch
