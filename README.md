@@ -261,7 +261,7 @@ $$ \min_ G \max_ D V(D, G) = \mathbb{E}_ {x \sim p_{\text{data}}(x)}[\log D(x)] 
    - **生成器訓練**：
      1. 從噪聲分布中采樣一批噪聲向量 $z^{(i)} \sim p_ z(z)$。
      2. 計算生成器的損失並更新參數 $\theta_G$：
-        $$ L_G = -\mathbb{E}_ {z \sim p_ z(z)}[\log D(G(z))] $$
+        $$L_G = -\mathbb{E}_ {z \sim p_ z(z)}[\log D(G(z))]$$
 
 
 
